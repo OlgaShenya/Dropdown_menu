@@ -1,0 +1,34 @@
+.root-nav {
+    display: block;
+    list-style-type: none;
+    padding: 0;
+    width: 130px;
+    background-color: rgb(175, 231, 242);
+    text-align: center;
+    font-size: 30px;
+ 
+   
+    
+}
+
+.root-nav a, .root-nav span {
+    text-decoration: none;
+    color: rgb(24, 5, 82);
+    cursor: pointer;
+}
+.root-nav ul {
+    position: absolute;
+    right: -130px;
+    top: 0;
+    width: 130px;
+    list-style-type: none;
+    padding: 0;
+    background-color: rgb(175, 231, 242);
+    display: none;
+}
+.root-nav li {
+    position: relative;
+}
+.root-nav ul.sub-menu-active{
+    display: block;
+}
